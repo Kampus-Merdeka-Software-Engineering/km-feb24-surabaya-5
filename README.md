@@ -1,6 +1,1 @@
-haloo
-
-asdasdas
-asdadsa
-asda
-nbg
+selamat datang dan sampai jumpa
