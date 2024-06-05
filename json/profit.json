@@ -1,0 +1,27 @@
+[
+  {
+    "Year": "2013",
+    "Product_Category": "Accessories",
+    "Profit": "0.62585369729643825"
+  },
+  {
+    "Year": "2013",
+    "Product_Category": "Bikes",
+    "Profit": "0.40709484212675473"
+  },
+  {
+    "Year": "2013",
+    "Product_Category": "Clothing",
+    "Profit": "0.40728694135202842"
+  },
+  {
+    "Year": "2012",
+    "Product_Category": "Bikes",
+    "Profit": "0.36882167943792565"
+  },
+  {
+    "Year": "2011",
+    "Product_Category": "Bikes",
+    "Profit": "0.38506667618838269"
+  }
+]

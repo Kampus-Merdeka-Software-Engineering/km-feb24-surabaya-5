@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team Five Bicycle Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link href='https://fonts.googleapis.com/css?family=Mulish' rel='stylesheet'>
+    <link rel="stylesheet" href="style3.css" />
+    <link rel="stylesheet" href="accesoriess.css" />
+    <link rel="icon" href="../assets/revou.png" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <div class="name">
+        <h1><span>TEAM 5 SURABAYA</span></h1>
+        <span class="names">Selamat datang di Dashboard Team Five Bicycle!</span>
+      </div>
+      <!-- navbar -->
+      <nav>
+        <p class="fas fa-envelope" id="contact-button"></p>
+        <div id="contact-form-container">
+          <form id="contact-form">
+          <p class="fas fa-envelope" id="contact-email"></p>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="enter your name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="enter your email" required />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" cols="30" placeholder="write a message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+        </div>
+      </nav>
+    </header>
+    <!-- aside -->
+    <aside id="aside">
+      <div class="logo">
+        <img src="../assets/logo.png" alt="Logo" />
+      </div>
+      <a href="../index.html" class="aside-link">
+        <i class="fas fa-tachometer-alt"></i>
+        <span>Dashboard</span>
+      </a>
+      <a href="../insights/Insights.html" class="aside-link">
+        <i class="fas fa-chart-line"></i>
+        <span>Insights</span>
+      </a>
+      <button class="aside-link active" id="dropdown-product">
+        <i class="fas fa-shopping-bag"></i>
+        <span>Products</span>
+      </button>
+      <div class="aside-link-products" id="link-products">
+        <a href="accessories.html"  class="accessories-link"><span>Accessories</span></a>
+        <a href="bikes.html"><span>Bikes</span></a>
+        <a href="clothing.html"><span>Clothing</span></a>
+      </div>
+      <a href="../proft/profit.html" class="aside-link">
+        <i class="fas fa-dollar-sign"></i>
+        <span>&nbsp;&nbsp;Profit</span>
+      </a>
+    </aside>
+    <!-- main -->
+    <main class="table">
+      <section class="table__header">
+        <h1>Product Performance Accessories</h1>
+        <!-- <div class="sort-product">
+          <p>Show</p>
+          <div class="dropdown">
+            <button class="dropdown-button">
+              <div class="selected-item">
+                <span>Last 7 days</span>
+                <span class="range-date">Jun 7 - Jun 13</span>
+              </div>
+              <span class="dropdown-icon"> &#9662; </span>
+            </button>
+            <div class="dropdown-content">
+              <div class="dropdown-item">Option 1</div>
+              <div class="dropdown-item">Option 2</div>
+              <div class="dropdown-item">Option 3</div>
+            </div>
+          </div>
+        </div> -->
+      </section>
+      <section class="table__body">
+        <table class="table-product">
+          <thead>
+            <tr>
+              <th>Product</th>
+              <th></th>
+              <th>Date</th>
+              <th>Sub Category</th>
+              <th>Order Quantity</th>
+              <th>
+                <div class="table-head">
+                  <span>Revenue</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="0 -960 960 960" width="15px"><path d="M444-768v438L243-531l-51 51 288 288 288-288-51-51-201 201v-438h-72Z" /></svg>
+                </div>
+              </th>
+              <th>
+                <div class="table-head">
+                  <span>Cost</span
+                  ><svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="0 -960 960 960" width="15px" fill="#5f6368">
+                    <path
+                      d="M480-240q20 0 34-14t14-34q0-20-14-34t-34-14q-20 0-34 14t-14 34q0 20 14 34t34 14Zm-36-153h73q0-37 6.5-52.5T555-485q35-34 48.5-58t13.5-53q0-55-37.5-89.5T484-720q-51 0-88.5 27T343-620l65 27q9-28 28.5-43.5T482-652q28 0 46 16t18 42q0 23-15.5 41T496-518q-35 32-43.5 52.5T444-393Zm36 297q-79 0-149-30t-122.5-82.5Q156-261 126-331T96-480q0-80 30-149.5t82.5-122Q261-804 331-834t149-30q80 0 149.5 30t122 82.5Q804-699 834-629.5T864-480q0 79-30 149t-82.5 122.5Q699-156 629.5-126T480-96Zm0-72q130 0 221-91t91-221q0-130-91-221t-221-91q-130 0-221 91t-91 221q0 130 91 221t221 91Zm0-312Z"
+                    />
+                  </svg>
+                </div>
+              </th>
+              <th>
+                <div class="table-head">
+                  <span>Profit</span
+                  ><svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="0 -960 960 960" width="15px" fill="#5f6368">
+                    <path
+                      d="M480-240q20 0 34-14t14-34q0-20-14-34t-34-14q-20 0-34 14t-14 34q0 20 14 34t34 14Zm-36-153h73q0-37 6.5-52.5T555-485q35-34 48.5-58t13.5-53q0-55-37.5-89.5T484-720q-51 0-88.5 27T343-620l65 27q9-28 28.5-43.5T482-652q28 0 46 16t18 42q0 23-15.5 41T496-518q-35 32-43.5 52.5T444-393Zm36 297q-79 0-149-30t-122.5-82.5Q156-261 126-331T96-480q0-80 30-149.5t82.5-122Q261-804 331-834t149-30q80 0 149.5 30t122 82.5Q804-699 834-629.5T864-480q0 79-30 149t-82.5 122.5Q699-156 629.5-126T480-96Zm0-72q130 0 221-91t91-221q0-130-91-221t-221-91q-130 0-221 91t-91 221q0 130 91 221t221 91Zm0-312Z"
+                    />
+                  </svg>
+                </div>
+              </th>
+            </tr>
+          </thead>
+          <tbody id="data-output">
+            <!-- Populated from the javascript file -->
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer>
+      <span class="footer-container">
+        <p>&copy; Revou Tech Academy 2024 | Team 5 Surabaya</p>
+      </span>
+    </footer>
+    <script src="accessories.js"></script>
+  </body>
+</html>
