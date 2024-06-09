@@ -1,0 +1,128 @@
+[
+  {
+    "Sub_Category": "Road Bikes",
+    "Year": "2011",
+    "Product_Category": "Bikes",
+    "Order_Quantity": "2683"
+  },
+  {
+    "Sub_Category": "Mountain Bikes",
+    "Year": "2011",
+    "Product_Category": "Bikes",
+    "Order_Quantity": "507"
+  },
+  {
+    "Sub_Category": "Road Bikes",
+    "Year": "2012",
+    "Product_Category": "Bikes",
+    "Order_Quantity": "3220"
+  },
+  {
+    "Sub_Category": "Mountain Bikes",
+    "Year": "2012",
+    "Product_Category": "Bikes",
+    "Order_Quantity": "260"
+  },
+  {
+    "Sub_Category": "Road Bikes",
+    "Year": "2013",
+    "Product_Category": "Bikes",
+    "Order_Quantity": "2756"
+  },
+  {
+    "Sub_Category": "Mountain Bikes",
+    "Year": "2013",
+    "Product_Category": "Bikes",
+    "Order_Quantity": "2074"
+  },
+  {
+    "Sub_Category": "Touring Bikes",
+    "Year": "2013",
+    "Product_Category": "Bikes",
+    "Order_Quantity": "820"
+  },
+  {
+    "Sub_Category": "Jerseys",
+    "Year": "2013",
+    "Product_Category": "Clothing",
+    "Order_Quantity": "20519"
+  },
+  {
+    "Sub_Category": "Caps",
+    "Year": "2013",
+    "Product_Category": "Clothing",
+    "Order_Quantity": "14337"
+  },
+  {
+    "Sub_Category": "Gloves",
+    "Year": "2013",
+    "Product_Category": "Clothing",
+    "Order_Quantity": "8797"
+  },
+  {
+    "Sub_Category": "Shorts",
+    "Year": "2013",
+    "Product_Category": "Clothing",
+    "Order_Quantity": "7000"
+  },
+  {
+    "Sub_Category": "Socks",
+    "Year": "2013",
+    "Product_Category": "Clothing",
+    "Order_Quantity": "3846"
+  },
+  {
+    "Sub_Category": "Vests",
+    "Year": "2013",
+    "Product_Category": "Clothing",
+    "Order_Quantity": "3408"
+  },
+  {
+    "Sub_Category": "Tires and Tubes",
+    "Year": "2013",
+    "Product_Category": "Accessories",
+    "Order_Quantity": "111412"
+  },
+  {
+    "Sub_Category": "Bottles and Cages",
+    "Year": "2013",
+    "Product_Category": "Accessories",
+    "Order_Quantity": "50005"
+  },
+  {
+    "Sub_Category": "Helmets",
+    "Year": "2013",
+    "Product_Category": "Accessories",
+    "Order_Quantity": "40552"
+  },
+  {
+    "Sub_Category": "Fenders",
+    "Year": "2013",
+    "Product_Category": "Accessories",
+    "Order_Quantity": "14164"
+  },
+  {
+    "Sub_Category": "Cleaners",
+    "Year": "2013",
+    "Product_Category": "Accessories",
+    "Order_Quantity": "5941"
+  },
+  {
+    "Sub_Category": "Hydration Packs",
+    "Year": "2013",
+    "Product_Category": "Accessories",
+    "Order_Quantity": "4781"
+  },
+  {
+    "Sub_Category": "Bike Racks",
+    "Year": "2013",
+    "Product_Category": "Accessories",
+    "Order_Quantity": "931"
+  },
+  {
+    "Sub_Category": "Bike Stands",
+    "Year": "2013",
+    "Product_Category": "Accessories",
+    "Order_Quantity": "661"
+  }
+]

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Team Five Bicycle Dashboard</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+   <link href='https://fonts.googleapis.com/css?family=Mulish' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="icon" href="assets/revou.png" />  
+  <link rel="stylesheet" href="insight.css" />
+  <link rel="icon" href="../assets/revou.png" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <header id="header">
+    <div class="name">
+      <h1><span>TEAM 5 SURABAYA</span></h1>
+      <span class="names">Selamat datang di Dashboard Team Five Bicycle!</span>
+    </div>
+    <!-- navbar -->
+    <nav>
+      <p class="fas fa-envelope" id="contact-button"></p>
+      <div id="contact-form-container">
+        <form id="contact-form">
+          <p class="fas fa-envelope" id="contact-email"></p>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="enter your name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="enter your email" required />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" cols="30" placeholder="write a message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </nav>
+  </header>
+<!-- hamburger menu -->
+  <button id="menu-toggle" class="hamburger">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </button>
+        <label class="country-dropdown" for="country-dropdown">Countries</label>
+          <select id="country-dropdown" >
+            <option value="United States">United States</option>
+            <option value="Canada">Canada</option>
+            <option value="Australia">Australia</option>
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="Germany">Germany</option>
+            <option value="France">France</option>
+          </select>
+        <label class="category-dropdown" for="category-dropdown"> Category </label>
+  <select id="category-dropdown">
+    <option value="Clothing">Clothing</option>
+    <option value="Accessories">Accessories</option>
+    <option value="Bikes">Bikes</option>
+  </select>
+   <aside id="aside">
+    <div class="logo">
+    <img src="assets/logo.png" alt="Logo" />
+  </div>
+    <a href="../index.html" class="aside-link ">
+      <i class="fas fa-tachometer-alt"></i>
+      <span>Dashboard</span>
+    </a>
+    <a href="insights.html" class="aside-link active">
+      <i class="fas fa-chart-line"></i>
+      <span>Insights</span>
+    </a>
+    <!-- Dropdown for Products -->
+    <button class="aside-link" id="dropdown-product">
+      <i class="fas fa-shopping-bag"></i>
+      <span>Products</span>
+    </button>
+    <div class="aside-link-products" id="link-products">
+      <a href="../product/accessories.html"></i><span>Accessories</span></a>
+      <a href="../product/bikes.html"></i><span>Bikes</span></a>
+      <a href="../1product/clothing.html"></i><span>Clothing</span></a>
+    </div>
+    <a href="../profit/profit.html" class="aside-link">
+      <i class="fas fa-dollar-sign"></i>
+      <span>&nbsp;&nbsp;Profit</span>
+    </a>
+  </aside>
+  <div class="charts">
+  <div class="chart-container musim">
+    <p>Top Product by Season</p>
+    <canvas id="musimChart"></canvas>
+  </div>
+  <div class="chart-container profit">
+    <p>Top Product by Country</p>
+    <canvas id="profitChart"></canvas>
+  </div>
+  <div class="chart-container recordCount">
+    <p>Top Product by Age Group</p>
+    <canvas id="recordCountChart"></canvas>
+  </div>
+  <div class="chart-container Insights">
+    <span>
+      <h4>Smart Insights</h4>
+      <p>In 2013, profit had a largest increase (9% the previous year) driven by the addition of new categories (Clothing and Accessories),</p>
+      <p>We found there is high demand in Accessories category, specifically for the product Tires and Tubes, with total sales amounting to 111,412 units.</p>
+      <p>In the fall season, sales of Tires and Tubes were twice as high compared to other seasons. We might intensify marketing efforts for this product.</p>
+      <p>There is an anomaly between the Profit Summary and Profit Average, where the SUM profit has been increasing year over year, but the AVG Profit has been experiencing a significant decline.</p>
+      <p>Although the Accessories category has achieved remarkable sales, the Bikes category remains the largest contributor to profit, despite having fewer sales.</p>
+    </span>
+  </div>
+</div>
+  <footer>
+    <span class="container">
+      <p>&copy; Revou Tech Academy 2024 | Team 5 Surabaya</p>
+    </span>
+  </footer>
+  <script src="script_insights.js"></script>
+</body>
+</html>
