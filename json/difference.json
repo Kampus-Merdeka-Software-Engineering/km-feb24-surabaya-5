@@ -1,128 +1,128 @@
 [
   {
     "Sub_Category": "Road Bikes",
-    "Year": "2011",
     "Product_Category": "Bikes",
-    "Selisih": "961414"
+    "Year": "2011",
+    "Cost": "2353337"
   },
   {
     "Sub_Category": "Mountain Bikes",
-    "Year": "2011",
     "Product_Category": "Bikes",
-    "Selisih": "68615"
+    "Year": "2011",
+    "Cost": "402170"
   },
   {
     "Sub_Category": "Road Bikes",
-    "Year": "2012",
     "Product_Category": "Bikes",
-    "Selisih": "1243410"
+    "Year": "2012",
+    "Cost": "2936338"
   },
   {
     "Sub_Category": "Mountain Bikes",
-    "Year": "2012",
     "Product_Category": "Bikes",
-    "Selisih": "15586"
+    "Year": "2012",
+    "Cost": "92558"
   },
   {
     "Sub_Category": "Road Bikes",
-    "Year": "2013",
     "Product_Category": "Bikes",
-    "Selisih": "1293180"
+    "Year": "2013",
+    "Cost": "3336123"
   },
   {
     "Sub_Category": "Mountain Bikes",
-    "Year": "2013",
     "Product_Category": "Bikes",
-    "Selisih": "398013"
+    "Year": "2013",
+    "Cost": "2280171"
   },
   {
     "Sub_Category": "Touring Bikes",
-    "Year": "2013",
     "Product_Category": "Bikes",
-    "Selisih": "346470"
+    "Year": "2013",
+    "Cost": "885718"
   },
   {
     "Sub_Category": "Jerseys",
-    "Year": "2013",
     "Product_Category": "Clothing",
-    "Selisih": "571862"
-  },
-  {
-    "Sub_Category": "Caps",
     "Year": "2013",
-    "Product_Category": "Clothing",
-    "Selisih": "71679"
-  },
-  {
-    "Sub_Category": "Socks",
-    "Year": "2013",
-    "Product_Category": "Clothing",
-    "Selisih": "-11853"
-  },
-  {
-    "Sub_Category": "Gloves",
-    "Year": "2013",
-    "Product_Category": "Clothing",
-    "Selisih": "-52782"
-  },
-  {
-    "Sub_Category": "Vests",
-    "Year": "2013",
-    "Product_Category": "Clothing",
-    "Selisih": "-54528"
+    "Cost": "818090"
   },
   {
     "Sub_Category": "Shorts",
-    "Year": "2013",
     "Product_Category": "Clothing",
-    "Selisih": "-126000"
+    "Year": "2013",
+    "Cost": "182000"
   },
   {
-    "Sub_Category": "Cleaners",
+    "Sub_Category": "Caps",
+    "Product_Category": "Clothing",
     "Year": "2013",
-    "Product_Category": "Accessories",
-    "Selisih": "-11882"
+    "Cost": "100354"
   },
   {
-    "Sub_Category": "Bike Stands",
+    "Sub_Category": "Vests",
+    "Product_Category": "Clothing",
     "Year": "2013",
-    "Product_Category": "Accessories",
-    "Selisih": "-27024"
+    "Cost": "81792"
   },
   {
-    "Sub_Category": "Bike Racks",
+    "Sub_Category": "Gloves",
+    "Product_Category": "Clothing",
     "Year": "2013",
-    "Product_Category": "Accessories",
-    "Selisih": "-27930"
+    "Cost": "79155"
   },
   {
-    "Sub_Category": "Hydration Packs",
+    "Sub_Category": "Socks",
+    "Product_Category": "Clothing",
     "Year": "2013",
-    "Product_Category": "Accessories",
-    "Selisih": "-62037"
-  },
-  {
-    "Sub_Category": "Bottles and Cages",
-    "Year": "2013",
-    "Product_Category": "Accessories",
-    "Selisih": "-73669"
-  },
-  {
-    "Sub_Category": "Fenders",
-    "Year": "2013",
-    "Product_Category": "Accessories",
-    "Selisih": "-84872"
-  },
-  {
-    "Sub_Category": "Tires and Tubes",
-    "Year": "2013",
-    "Product_Category": "Accessories",
-    "Selisih": "-278956"
+    "Cost": "12021"
   },
   {
     "Sub_Category": "Helmets",
-    "Year": "2013",
     "Product_Category": "Accessories",
-    "Selisih": "-364968"
+    "Year": "2013",
+    "Cost": "527176"
+  },
+  {
+    "Sub_Category": "Tires and Tubes",
+    "Product_Category": "Accessories",
+    "Year": "2013",
+    "Cost": "422483"
+  },
+  {
+    "Sub_Category": "Bottles and Cages",
+    "Product_Category": "Accessories",
+    "Year": "2013",
+    "Cost": "122753"
+  },
+  {
+    "Sub_Category": "Fenders",
+    "Product_Category": "Accessories",
+    "Year": "2013",
+    "Cost": "113172"
+  },
+  {
+    "Sub_Category": "Hydration Packs",
+    "Product_Category": "Accessories",
+    "Year": "2013",
+    "Cost": "100169"
+  },
+  {
+    "Sub_Category": "Bike Racks",
+    "Product_Category": "Accessories",
+    "Year": "2013",
+    "Cost": "41895"
+  },
+  {
+    "Sub_Category": "Bike Stands",
+    "Product_Category": "Accessories",
+    "Year": "2013",
+    "Cost": "38901"
+  },
+  {
+    "Sub_Category": "Cleaners",
+    "Product_Category": "Accessories",
+    "Year": "2013",
+    "Cost": "17823"
   }
 ]
