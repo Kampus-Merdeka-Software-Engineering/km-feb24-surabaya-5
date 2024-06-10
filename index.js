@@ -116,10 +116,12 @@ fetch('json/profit.json')
       const lineLabels = ['2011', '2012', '2013'];
       const lineDatasets = [
         {
-          label: 'Profit',
+          label: 'Margin Profit',
           data: lineLabels.map((year) => {
             const yearlyData = filteredChartData.filter((item) => item.Year == year);
-            return yearlyData.reduce((sum, item) => sum + parseFloat(item.Profit), 0);
+            const totalProfit = yearlyData.reduce((sum, item) => sum + parseFloat(item.Profit), 0);
+            const avgProfit = yearlyData.length ? totalProfit / yearlyData.length : 0;
+            return avgProfit;
           }),
           fill: false,
           borderColor: `rgba(${Math.floor(Math.random() * 256)},${Math.floor(Math.random() * 256)},${Math.floor(Math.random() * 256)}, 1)`,
@@ -160,16 +162,19 @@ fetch('json/profit.json')
             display: true,
             title: {
               display: true,
-              text: 'Profit',
+              text: 'Average Profit',
             },
           },
         },
       },
     });
 
+    // Set default year filter to 'all'
+    yearFilterSelect.value = 'all';
     updateChart(filteredData);
   })
   .catch((error) => console.error('Error fetching the data:', error));
+
 
 // Fetch and process data for doughnut chart
 fetch('json/doughnut_chart.json')
