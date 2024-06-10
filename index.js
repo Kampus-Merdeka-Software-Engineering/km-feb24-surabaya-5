@@ -383,11 +383,7 @@ const updateChart = (chart, data, category, year) => {
   filteredData = year === 'all' ? filteredData : filteredData.filter((item) => item.Year == year);
 
   // Sort the data based on the category
-  if (category.toLowerCase() === 'bikes') {
-    filteredData = filteredData.sort((a, b) => b.value - a.value); // Sort in ascending order for bikes
-  } else {
-    filteredData = filteredData.sort((a, b) => b.value - a.value); // Sort in descending order for others
-  }
+  filteredData = filteredData.sort((a, b) => b.value - a.value);
 
   const sortedData = filteredData.slice(0, 10); // Take the top 10
 
@@ -471,7 +467,7 @@ fetch('json/difference.json')
       Sub_Category: item.Sub_Category,
       Year: item.Year,
       Product_Category: item.Product_Category,
-      value: parseFloat(item.Selisih),
+      value: parseFloat(item.Cost),
     }));
 
     const barCtxDiff = document.getElementById('barChartDifference').getContext('2d');
@@ -481,7 +477,7 @@ fetch('json/difference.json')
         labels: [],
         datasets: [
           {
-            label: 'Difference',
+            label: 'Cost',
             data: [],
             backgroundColor: 'rgba(255, 99, 132, 0.2)',
             borderColor: 'rgba(255, 99, 132, 1)',
@@ -502,6 +498,7 @@ fetch('json/difference.json')
         scales: {
           y: {
             beginAtZero: true,
+            stacked: true,
           },
         },
       },
