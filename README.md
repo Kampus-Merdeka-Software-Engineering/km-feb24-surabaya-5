@@ -6,11 +6,13 @@
   <img src="a" alt="Team 5"/>
 </div>
 <h2>About Us</h2>
-<p>We are Team 5 from Surabaya, consisting of 13 members specializing in data analysis and software engineering at RevoU Tech Academy.</p>
+<p>We are Team 5 from Surabaya, consisting of 13 members specializing in data analysis and software engineering at RevoU Tech Academy.United by our passion for data analysis and software engineering, we embarked on this journey together as part of the prestigious RevoU Tech Academy.</p>
+<p>In our diverse team, we have members who specialize in various aspects of projects, from rigorous data cleansing and in-depth analysis to innovative software development and seamless implementation. Through collaboration, dedication and a shared commitment to excellence, we strive to deliver impactful solutions that address real-world challenges.</p>
+
 <hr>
 <h2>Team Members</h2>
 
-### Cyle Data Analytics 
+#### Cyle Data Analytics 
 
 | Role                 | Members                              |
 |----------------------|--------------------------------------|
@@ -28,7 +30,7 @@
 | *Data Communication* | Ikhsanuddin Wahid Muafiq             |
 |                      | Rahma Illahi Rusi Pratiwi            |
 
-### Cyle Software Engineer 
+#### Cyle Software Engineer 
 
 | Role                 | Members                              |
 |----------------------|--------------------------------------|
