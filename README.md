@@ -3,7 +3,8 @@
 <h2>KM FE24 SURABAYA 5</h2>
 
 <div align="center">
-  <img src="a" alt="Team 5"/>
+  <img src="assets/ilogo.png" alt="Team 5"/>
+</div>
 </div>
 <h2>About Us</h2>
 <p>We are Team 5 from Surabaya, consisting of 13 members specializing in data analysis and software engineering at RevoU Tech Academy.United by our passion for data analysis and software engineering, we embarked on this journey together as part of the prestigious RevoU Tech Academy.</p>
