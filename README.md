@@ -3,7 +3,7 @@
 <h2>KM FE24 SURABAYA 5</h2>
 
 <div align="center">
-  <img src="assets/logo.png" alt="Team 5"/>
+  <img src="assets/logo.png" alt="Team 5" style="width:350px;"/>
 </div>
 </div>
 <h2>About Us</h2>
