@@ -1,6 +1,6 @@
 <h1 style="text-align: center;">CAPSTON PROJECT DATA AND SOFTWARE ENGINEERING</h2>
 <hr>
-<h2>KM FE24 SURABAYA 5</h2>
+<h2>KM FEB24 SURABAYA 5</h2>
 
 <div align="center">
   <img src="assets/logo.png" alt="Team 5" style="width:350px;"/>
