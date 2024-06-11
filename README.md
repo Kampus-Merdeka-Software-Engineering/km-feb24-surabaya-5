@@ -13,7 +13,7 @@
 <hr>
 <h2>Team Members</h2>
 
-#### Cyle Data Analytics 
+#### Cycle Data Analytics 
 
 | Role                 | Members                              |
 |----------------------|--------------------------------------|
@@ -31,7 +31,7 @@
 | *Data Communication* | Ikhsanuddin Wahid Muafiq             |
 |                      | Rahma Illahi Rusi Pratiwi            |
 
-#### Cyle Software Engineer 
+#### Cycle Software Engineer 
 
 | Role                 | Members                              |
 |----------------------|--------------------------------------|
