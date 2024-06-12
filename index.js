@@ -67,12 +67,28 @@ function animateNumber(element, endValue, duration) {
 }
 
 // Apply animation to elements with the class 'number'
-const numberElements = document.querySelectorAll('.number');
-numberElements.forEach((element) => {
-  const endValue = parseInt(element.dataset.target);
-  const duration = 2000;
-  animateNumber(element, endValue, duration);
-});
+  function animateNumber(element, endValue, duration) {
+    let startValue = 0;
+    let startTime = null;
+
+    function updateNumber(currentTime) {
+      if (startTime === null) startTime = currentTime;
+      const progress = Math.min((currentTime - startTime) / duration, 1);
+      const value = Math.floor(progress * endValue);
+      element.textContent = value.toString().padStart(element.dataset.target.length, '0');
+      if (progress < 1) {
+        requestAnimationFrame(updateNumber);
+      }
+    }
+    requestAnimationFrame(updateNumber);
+  }
+
+  const numberElements = document.querySelectorAll('.number');
+  numberElements.forEach((element) => {
+    const endValue = parseInt(element.dataset.target, 10);
+    const duration = 2000;
+    animateNumber(element, endValue, duration);
+  });
 
 // Toggle dropdown and link styles on click
 const dropdownProduct = document.getElementById('dropdown-product');
